@@ -1,0 +1,33 @@
+{
+  "name": "alphonso-s3",
+  "version": "0.0.1",
+  "description": "s3 Storage Layer for alphonso",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhanuc/alphonso-fs.git"
+  },
+  "keywords": [
+    "npm",
+    "alphonso",
+    "s3",
+    "registry"
+  ],
+  "author": "Bhanu Pratap Chaudhary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhanuc/alphonso-s3/issues"
+  },
+  "homepage": "https://github.com/bhanuc/alphonso-s3",
+  "devDependencies": {
+    "mocha": "1.20.0",
+    "should": "4.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "knox": "^0.9.2"
+  }
+}
